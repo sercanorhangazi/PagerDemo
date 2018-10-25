@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C68F9A132181A0780067CFD4 /* ExampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F9A122181A0780067CFD4 /* ExampleModel.swift */; };
+		C68F9A152181A0AF0067CFD4 /* ExampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F9A142181A0AF0067CFD4 /* ExampleData.swift */; };
+		C68F9A172181A1AE0067CFD4 /* DynamicHeightCalculable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F9A162181A1AE0067CFD4 /* DynamicHeightCalculable.swift */; };
+		C68F9A192181A2880067CFD4 /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F9A182181A2880067CFD4 /* ExampleViewModel.swift */; };
+		C68F9A1C2181AFA10067CFD4 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68F9A1A2181AFA10067CFD4 /* CollectionViewCell.swift */; };
+		C68F9A1D2181AFA10067CFD4 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68F9A1B2181AFA10067CFD4 /* CollectionViewCell.xib */; };
 		C6A97F0C21809EE800B6D582 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A97F0B21809EE800B6D582 /* AppDelegate.swift */; };
 		C6A97F1121809EE800B6D582 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6A97F0F21809EE800B6D582 /* Main.storyboard */; };
 		C6A97F1321809EEA00B6D582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A97F1221809EEA00B6D582 /* Assets.xcassets */; };
@@ -14,10 +20,15 @@
 		C6A97F1F2180B99B00B6D582 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A97F1E2180B99B00B6D582 /* MainViewController.swift */; };
 		C6A97F212180BA3100B6D582 /* RegularTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A97F202180BA3100B6D582 /* RegularTableViewCell.swift */; };
 		C6A97F232180BACF00B6D582 /* CommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A97F222180BACF00B6D582 /* CommentsTableViewCell.swift */; };
-		C6A97F252180BB4100B6D582 /* CommentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A97F242180BB4100B6D582 /* CommentCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C68F9A122181A0780067CFD4 /* ExampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleModel.swift; sourceTree = "<group>"; };
+		C68F9A142181A0AF0067CFD4 /* ExampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleData.swift; sourceTree = "<group>"; };
+		C68F9A162181A1AE0067CFD4 /* DynamicHeightCalculable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightCalculable.swift; sourceTree = "<group>"; };
+		C68F9A182181A2880067CFD4 /* ExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
+		C68F9A1A2181AFA10067CFD4 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		C68F9A1B2181AFA10067CFD4 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		C6A97F0821809EE800B6D582 /* PagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6A97F0B21809EE800B6D582 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6A97F1021809EE800B6D582 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,7 +38,6 @@
 		C6A97F1E2180B99B00B6D582 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C6A97F202180BA3100B6D582 /* RegularTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularTableViewCell.swift; sourceTree = "<group>"; };
 		C6A97F222180BACF00B6D582 /* CommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableViewCell.swift; sourceTree = "<group>"; };
-		C6A97F242180BB4100B6D582 /* CommentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +73,15 @@
 				C6A97F1E2180B99B00B6D582 /* MainViewController.swift */,
 				C6A97F202180BA3100B6D582 /* RegularTableViewCell.swift */,
 				C6A97F222180BACF00B6D582 /* CommentsTableViewCell.swift */,
-				C6A97F242180BB4100B6D582 /* CommentCollectionViewCell.swift */,
+				C68F9A1A2181AFA10067CFD4 /* CollectionViewCell.swift */,
+				C68F9A1B2181AFA10067CFD4 /* CollectionViewCell.xib */,
+				C6A97F0F21809EE800B6D582 /* Main.storyboard */,
+				C68F9A122181A0780067CFD4 /* ExampleModel.swift */,
+				C68F9A142181A0AF0067CFD4 /* ExampleData.swift */,
+				C68F9A182181A2880067CFD4 /* ExampleViewModel.swift */,
+				C68F9A162181A1AE0067CFD4 /* DynamicHeightCalculable.swift */,
 				C6A97F1221809EEA00B6D582 /* Assets.xcassets */,
 				C6A97F0B21809EE800B6D582 /* AppDelegate.swift */,
-				C6A97F0F21809EE800B6D582 /* Main.storyboard */,
 				C6A97F1421809EEA00B6D582 /* LaunchScreen.storyboard */,
 				C6A97F1721809EEA00B6D582 /* Info.plist */,
 			);
@@ -133,6 +148,7 @@
 			files = (
 				C6A97F1621809EEA00B6D582 /* LaunchScreen.storyboard in Resources */,
 				C6A97F1321809EEA00B6D582 /* Assets.xcassets in Resources */,
+				C68F9A1D2181AFA10067CFD4 /* CollectionViewCell.xib in Resources */,
 				C6A97F1121809EE800B6D582 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,9 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68F9A1C2181AFA10067CFD4 /* CollectionViewCell.swift in Sources */,
+				C68F9A152181A0AF0067CFD4 /* ExampleData.swift in Sources */,
 				C6A97F0C21809EE800B6D582 /* AppDelegate.swift in Sources */,
 				C6A97F212180BA3100B6D582 /* RegularTableViewCell.swift in Sources */,
-				C6A97F252180BB4100B6D582 /* CommentCollectionViewCell.swift in Sources */,
+				C68F9A132181A0780067CFD4 /* ExampleModel.swift in Sources */,
+				C68F9A192181A2880067CFD4 /* ExampleViewModel.swift in Sources */,
+				C68F9A172181A1AE0067CFD4 /* DynamicHeightCalculable.swift in Sources */,
 				C6A97F1F2180B99B00B6D582 /* MainViewController.swift in Sources */,
 				C6A97F232180BACF00B6D582 /* CommentsTableViewCell.swift in Sources */,
 			);
